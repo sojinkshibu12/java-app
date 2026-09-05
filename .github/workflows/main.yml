@@ -11,8 +11,8 @@ jobs:
       - name: Test runner
         run: |
           echo "Runner is working!"
-          hostname
           whoami
           uname -a
           java -version
           mvn -version
+          git --version
