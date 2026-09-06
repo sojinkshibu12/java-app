@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Test runner
         run: |
-          echo "Runner is working!"
+          echo "Runner is working and this is goof!"
           whoami
           uname -a
           java -version
